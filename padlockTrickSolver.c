@@ -3,8 +3,8 @@
 #define	ROWS_DIGIT			4	// Number of rows
 #define	COLUMNS_DIGITS			4	// Number of digits
 #define	COLUMNS_ARRAY			6	// 4 digits for each digit + 2 (number of correct digit + number of correct position)
-#define	COLUMN_CORRECT_DIGITS		4	// column where to store the givern number of right digits in each row.
-#define	COLUMN_CORRECT_POS		5	// column where to store the given number of right position digits in each row.
+#define	COLUMN_CORRECT_DIGITS		4	// column to store the specified number of correct digits in each row.
+#define	COLUMN_CORRECT_POS		5	// Column where to store the correct specified position of digits in each row.
 
 // tristate value of each digit
 #define	DIGIT_UNDEFINED			2
@@ -20,9 +20,9 @@ void fillDigitsTable(char digits[ROWS_DIGITS][COLUMNS_ARRAY], char stateDigitsTF
 	
 	
 	char dgt[] = 	{2, 6, 5, 7, 2, 0,
-					 0, 4, 1, 5, 1, 0,
-					 4, 2, 6, 8, 0, 0,
-					 1, 7, 4, 9, 2, 2};
+			 0, 4, 1, 5, 1, 0,
+			 4, 2, 6, 8, 0, 0,
+			 1, 7, 4, 9, 2, 2};
 	int pos = 0;
 	for (int row=0;row<ROWS_DIGITS;row++) {
 		for (int column=0;column<COLUMNS_ARRAY;column++) {
