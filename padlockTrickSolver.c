@@ -1,10 +1,18 @@
+// ------------------------------------------------------------------
+//
+// - Code to resolve e trick
+// - Coded by Anzollitto Francesco
+//
+// ------------------------------------------------------------------
+
+
 #include "stdio.h"
 
 #define	ROWS_DIGIT			4	// Number of rows
 #define	COLUMNS_DIGITS			4	// Number of digits
 #define	COLUMNS_ARRAY			6	// 4 digits for each digit + 2 (number of correct digit + number of correct position)
 #define	COLUMN_CORRECT_DIGITS		4	// column to store the specified number of correct digits in each row.
-#define	COLUMN_CORRECT_POS		5	// Column where to store the correct specified position of digits in each row.
+#define	COLUMN_CORRECT_POS		5	// Column to store the correct specified position of digits in each row.
 
 // tristate value of each digit
 #define	DIGIT_UNDEFINED			2
