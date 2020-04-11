@@ -1,13 +1,13 @@
 #include "stdio.h"
 
-#define	ROWS_DIGITS					4	// Number of rows
-#define	COLUMNS_DIGITS				4	// Number of digits
-#define	COLUMNS_ARRAY				6	// 4 digits for each digit + 2 (number of correct digit + number of correct position)
+#define	ROWS_DIGIT			4	// Number of rows
+#define	COLUMNS_DIGITS			4	// Number of digits
+#define	COLUMNS_ARRAY			6	// 4 digits for each digit + 2 (number of correct digit + number of correct position)
 #define	COLUMN_CORRECT_DIGITS		4	// column where to store the givern number of right digits in each row.
-#define	COLUMN_CORRECT_POS			5	// column where to store the given number of right position digits in each row.
+#define	COLUMN_CORRECT_POS		5	// column where to store the given number of right position digits in each row.
 
 // tristate value of each digit
-#define	DIGIT_UNDEFINED		2
+#define	DIGIT_UNDEFINED			2
 #define	DIGIT_TRUE			1
 #define	DIGIT_FALSE			0
 
