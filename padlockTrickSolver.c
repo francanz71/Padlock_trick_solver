@@ -21,7 +21,7 @@
 
 
 
-// insert given data in the array (the first 4 number are the digit. 
+// insert given data in the array (In the first 4 columns are stored the specified digits. 
 //In the last 2 columns are stored the given hints for correct digits and correct positions
 
 void fillDigitsTable(char digits[ROWS_DIGITS][COLUMNS_ARRAY], char stateDigitsTF[ROWS_DIGITS][COLUMNS_DIGITS], unsigned char padlock_Result[COLUMNS_DIGITS]) {
