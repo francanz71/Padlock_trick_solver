@@ -1,6 +1,6 @@
 // ------------------------------------------------------------------
 //
-// - Code to resolve e trick
+// - Code to resolve a trick
 // - Coded by Anzollitto Francesco
 //
 // ------------------------------------------------------------------
@@ -8,7 +8,7 @@
 
 #include "stdio.h"
 
-#define	ROWS_DIGIT			4	// Number of rows
+#define	ROWS_DIGITS			4	// Number of rows
 #define	COLUMNS_DIGITS			4	// Number of digits
 #define	COLUMNS_ARRAY			6	// 4 digits for each digit + 2 (number of correct digit + number of correct position)
 #define	COLUMN_CORRECT_DIGITS		4	// column to store the specified number of correct digits in each row.
